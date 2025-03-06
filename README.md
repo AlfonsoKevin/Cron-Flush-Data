@@ -7,12 +7,6 @@
 <p align="center"><strong>定时任务用于刷新数据库和缓存中的数据<br><em>持续更新中～</em></strong></p>
 <div align="center">
     <a href="https://github.com/AlfonsoKevin/Cron-Flush-Data"><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a></div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 58f70eab499431fa25e24bbf3ed40ae61f050c3b
-
-
 
 [中文|[English](./README_English.md)]
 
@@ -116,7 +110,7 @@ done
 
 ### 版本二：
 
-**引入Redis，使用了[延时双删](#注意事项👌)的策略，先删除缓存，更新数据库，然后延时删除缓存。**在多数据库同步基础上多了刷新缓存。
+**引入Redis，使用了[延时双删](#注意事项👌)的策略，先删除缓存，更新数据库，然后延时删除缓存**，在多数据库同步基础上多了刷新缓存。
 
 `import_sql_redis.sh`
 
@@ -196,8 +190,6 @@ else
 fi
 ```
 
-
-
 ## 注意事项👌
 
 使用的是`延时双删`的策略，**这个策略无法保证双写的强一致性，在于延时的时间不确定，这里请自行查阅数据库和缓存的双写一致性问题，用于展示项目还是可以的。可以根据经验手动调整**。
@@ -205,8 +197,3 @@ fi
 ------
 
 感谢您对该项目的关注和支持！🕵️‍♀️
-
-
-
-
-
