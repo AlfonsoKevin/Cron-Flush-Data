@@ -4,7 +4,7 @@
     </a>
 </p>
 <h1 align="center">Cron-Flush-Data</h1>
-<p align="center"><strong>定时任务用户刷新数据库和缓存中的数据<br><em>持续更新中～</em></strong></p>
+<p align="center"><strong>定时任务用于刷新数据库和缓存中的数据<br><em>持续更新中～</em></strong></p>
 <div align="center">
     <a href=""><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a></div>
 

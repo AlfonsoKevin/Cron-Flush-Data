@@ -4,7 +4,7 @@
     </a>
 </p>
 <h1 align="center">Cron-Flush-Data</h1>
-<p align="center"><strong>Scheduled task: Users refresh data in the database and cache<br><em>Continuously updating～</em></strong></p>
+<p align="center"><strong>Scheduled tasks are used to refresh data in databases and caches<br><em>Continuously updating～</em></strong></p>
 <div align="center">
     <a href=""><img src="https://img.shields.io/badge/github-项目地址-yellow.svg?style=plasticr"></a></div>
 
